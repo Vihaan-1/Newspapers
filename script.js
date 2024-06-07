@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', () => {
         newsletterItem.innerHTML = `
             <h3>${newsletter.title}</h3>
             <a href="${newsletter.file}" target="_blank" class="read-link">Read</a>
-            <a href="${newsletter.file}" download>Download</a>
+            <a href="${newsletter.file}" class="download-link">Download</a>
         `;
 
         newsletterList.appendChild(newsletterItem);
