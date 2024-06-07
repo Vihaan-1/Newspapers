@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const newsletters = [
         { title: "Newspaper One", file: "NewspaperOne.pdf" },
-        
+     
     ];
 
     const newsletterList = document.getElementById('newsletter-list');
