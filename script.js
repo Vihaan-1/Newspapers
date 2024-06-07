@@ -1,12 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const newsletters = [
-        { title: "January 2024", file: "NewspaperOne.pdf" },
-        { title: "February 2024", file: "newsletter-feb-2024.pdf" },
-        { title: "January 2024", file: "newsletter-jan-2024.pdf" },
-        { title: "January 2024", file: "newsletter-jan-2024.pdf" },
-        { title: "January 2024", file: "newsletter-jan-2024.pdf" },
-        { title: "January 2024", file: "newsletter-jan-2024.pdf" },
-      
+        { title: "Newspaper One", file: "NewspaperOne.pdf" },
+        
     ];
 
     const newsletterList = document.getElementById('newsletter-list');
