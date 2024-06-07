@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const newsletters = [
         { title: "Newspaper One", file: "PDFs/NewspaperOne.pdf" },
-       
+        // Add more newsletters here if needed
     ];
 
     const newsletterList = document.getElementById('newsletter-list');
@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
         newsletterItem.innerHTML = `
             <h3>${newsletter.title}</h3>
-            <a href="${newsletter.file}" target="_blank" download>Read</a>
+            <a href="${newsletter.file}" target="_blank" class="read-link">Read</a>
             <a href="${newsletter.file}" download>Download</a>
         `;
 
