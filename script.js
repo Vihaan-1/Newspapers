@@ -1,7 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
     const newsletters = [
         { title: "Newspaper One", file: "PDFs/NewspaperOne.pdf" },
-        // Add more newsletters here if needed
+        { title: "Newspaper Two", file: "PDFs/NewspaperTwo.pdf" },
+        { title: "Newspaper Three", file: "PDFs/NewspaperThree.pdf" },
+        { title: "Newspaper Four", file: "PDFs/NewspaperFour.pdf" },
+        { title: "Newspaper Five", file: "PDFs/NewspaperFive.pdf" },
+        { title: "Newspaper Six", file: "PDFs/NewspaperSix.pdf" },
+        { title: "Newspaper Seven", file: "PDFs/NewspaperSeven.pdf" }
     ];
 
     const newsletterList = document.getElementById('newsletter-list');
@@ -13,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         newsletterItem.innerHTML = `
             <h3>${newsletter.title}</h3>
             <a href="${newsletter.file}" target="_blank" class="read-link">Read</a>
-            <a href="${newsletter.file}" class="download-link">Download</a>
+            <a href="${newsletter.file}" download>Download</a>
         `;
 
         newsletterList.appendChild(newsletterItem);
